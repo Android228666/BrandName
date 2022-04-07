@@ -1,9 +1,11 @@
 :root{
     --standart-purple: #8D5CF6;
+    --dark-bg-color: #26335D;
 }
 
 body{
     box-sizing: border-box;
+    background: var(--dark-bg-color);
 }
 
 ul{
@@ -27,10 +29,18 @@ h1,h2,h3,h4,h5,p{
 
 /* HEADER */
 
+header{
+    background: url(./images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 818px;
+}
+
 .nav-block{
     display: flex;
     align-items: center;
-    background: #000;
+    /* background: #000; */
 }
 
 .name-of-site{
@@ -43,7 +53,7 @@ h1,h2,h3,h4,h5,p{
 
 .header-list{
     display: flex;
-    margin-left: 83px;
+    margin-left: 105px;
 }
 
 .header-item{
@@ -59,7 +69,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .header-login{
-    margin-left: 240px;
+    margin-left: 285px;
     font-weight: 700;
     font-size: 14px;
     line-height: 22px;
@@ -68,7 +78,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .joinus-btn{
-    margin-left: 45px;
+    margin-left: 70px;
     border: none;
     border-radius: 5px;
     width: 137px;
@@ -90,3 +100,83 @@ h1,h2,h3,h4,h5,p{
     letter-spacing: 0.2px;
     color: #fff;
 }
+
+.header-under-text{
+    padding-top: 152px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: var(--standart-purple);
+}
+
+.header-title{
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+
+.header-text{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+
+.header-btn{
+    margin-top: 40px;
+    width: 135px;
+    height: 52px;
+    background: var(--standart-purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.header-btn span{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+
+/* OUR COURSE */
+
+.course-under-text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: var(--standart-purple);
+    margin-top: 115px;
+}
+
+.course-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.course-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+
